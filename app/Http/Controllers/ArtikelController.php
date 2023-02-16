@@ -13,7 +13,7 @@ class ArtikelController extends Controller
     	// $artikel = DB::table('data_spbe')->get();
  
     	// mengirim data pegawai ke view index
-    	return view('dashboard');
+    	return view('dashboard.index');
  
     }
 
