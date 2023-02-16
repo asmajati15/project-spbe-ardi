@@ -27,7 +27,7 @@ class ArtikelController extends Controller
         'gambar' => $request->gambar
 	]);
 	// alihkan halaman ke halaman pegawai
-	return redirect('/pegawai');
+	return redirect('/');
  
 }
 }
