@@ -19,7 +19,5 @@ Route::get('/welcome', function () {
 });
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard.index');
-});
+
 Route::get('/', [ArtikelController::class, 'index']);
