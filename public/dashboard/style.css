@@ -66,6 +66,10 @@
   #menu-toggle {
     cursor: pointer;
   }
+
+  .template {
+    width: 100%;
+  }
   
   .list-group-item {
     border: none;
